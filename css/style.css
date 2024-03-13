@@ -23,16 +23,19 @@
 
 .left-bar{
     color: white;
+    cursor: pointer;
 }
 
 .central-bar img{
     height: 2rem;
     width: auto;
+    cursor: pointer;
 }
 
 .right-bar i{
     color: white;
     padding: 1rem;
+    cursor: pointer;
 }
 
 /* box size */
@@ -48,6 +51,7 @@
     min-height: 30rem;
     margin:0 0.5rem 3rem 0.5rem;
     position: relative;
+    cursor: pointer;
 }
 
 .column img{
@@ -127,9 +131,19 @@
 .right-footer{
     padding: 0.5rem 0.5rem 0 0;
     width: 50%;
-    text-align: end;
+    text-align:end;
 }
 
 .right-footer .icons i{
     padding: 0.3rem;
+    cursor: pointer;
+}
+
+/* hover */
+.hearts:hover{
+    color: red;
+}
+
+.first-img:hover{
+    background-image: url(../img/1b.webp);
 }
