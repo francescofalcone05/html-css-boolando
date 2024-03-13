@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* barra di navigazione header */
+.nav-bar{
+    background-color: orange;
+    height: 3.5rem;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-bar{
+    color: white;
+}
+
+.central-bar img{
+    height: 2rem;
+    width: auto;
+}
+
+.right-bar i{
+    color: white;
+    padding: 1rem;
+}
+
+/* box size */
+main{
+    width: 70%;
+    margin: 3rem auto;
+    background-color: blue;
+    min-height: 55rem;
+}
+
+/* item */
+.column{
+    width: calc(100% / 3 - 1rem);
+    min-height: 30rem;
+    background-color: brown;
+    margin:0 0.5rem 3rem 0.5rem;
+    border: dashed;
+    position: relative;
+}
+
+.column img{
+    width:100%;
+    height: fit-content;
+    
+}
+
+.hearts{
+    background-color: white;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5rem;
+    border-radius: 30%;
+}
+
+.discount{
+    background-color: brown;
+    color: white;
+    padding: 0 0.5rem;
+    position: absolute;
+    top: 25rem;
+    left: 0;
+}
+
+.eco{
+    background-color: green;
+    color: white;
+    padding: 0 0.5rem;
+    position: absolute;
+    top: 25rem;
+    left:4rem;
+}
