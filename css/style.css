@@ -14,9 +14,11 @@
     background-color: orange;
     height: 3.5rem;
     width: 100%;
-    padding: 1rem;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 999;
 }
 
 .left-bar{
@@ -34,10 +36,9 @@
 }
 
 /* box size */
-main{
+.box{
     width: 70%;
-    margin: 3rem auto;
-    background-color: blue;
+    margin: 3.5rem auto;
     min-height: 55rem;
 }
 
@@ -45,9 +46,7 @@ main{
 .column{
     width: calc(100% / 3 - 1rem);
     min-height: 30rem;
-    background-color: brown;
     margin:0 0.5rem 3rem 0.5rem;
-    border: dashed;
     position: relative;
 }
 
@@ -70,7 +69,7 @@ main{
 }
 
 .discount{
-    background-color: brown;
+    background-color: rgb(192, 24, 24);
     color: white;
     padding: 0 0.5rem;
     position: absolute;
@@ -84,5 +83,27 @@ main{
     padding: 0 0.5rem;
     position: absolute;
     top: 25rem;
-    left:4rem;
+    left:3.5rem;
+}
+
+.red-price{
+    color: red;
+}
+
+.last-eco{
+    background-color: green;
+    color: white;
+    padding: 0 0.5rem;
+    position: absolute;
+    top: 25rem;
+    left:0;
+}
+
+
+
+/* footer */
+.end-bar{
+    background-color: black;
+    min-height: 5rem;
+    width: 100%;
 }
