@@ -11,6 +11,7 @@
 }
 
 /* barra di navigazione header */
+
 .nav-bar{
     background-color: orange;
     height: 3.5rem;
@@ -26,11 +27,15 @@
     color: white;
     cursor: pointer;
 }
+.left-bar>span{
+    padding: 0 0.5rem;
+}
 
 .central-bar img{
     height: 2rem;
     width: auto;
     cursor: pointer;
+    display: block;
 }
 
 .right-bar i{
@@ -173,7 +178,7 @@
 }
 
 .column:hover img{
-    opacity: o;
+    opacity: 0;
 }
 
 .column:hover img.hidden{
