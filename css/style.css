@@ -151,17 +151,3 @@
 .left-bar>span:hover{
     color: green;
 }
-
-
-/* image hover
-.column img.hidden{
-    opacity: 0;
-}
-
-.column:hover img{
-    opacity: o;
-}
-
-.column:hover img.hidden{
-    opacity: 1;
-} */
