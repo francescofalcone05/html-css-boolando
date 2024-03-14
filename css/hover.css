@@ -47,17 +47,20 @@
 
 /* item */
 .column{
-    width: calc(100% / 3 - 1rem);
-    min-height: 30rem;
+    width: 338.48px;
+    height: 547.85px;
     margin:0 0.5rem 3rem 0.5rem;
     position: relative;
     cursor: pointer;
 }
 
-.column img{
-    width:100%;
-    height: fit-content;
-    transition:opacity 0.5s ease;    
+.column>img{
+    width:338.48px;
+    height: 488.66px;
+    transition:opacity 0.5s ease; 
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hearts{
@@ -68,7 +71,7 @@
     font-size: 2rem;
     text-align: center;
     vertical-align: middle;
-    padding: 0.4rem;
+    padding: 0.5rem;
     border-radius: 30%;
 }
 
@@ -88,6 +91,12 @@
     position: absolute;
     top: 25rem;
     left:3.5rem;
+}
+
+.text-box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .red-price{
@@ -154,4 +163,18 @@
 
 .icons>i:hover{
     color: green;
+}
+
+
+
+.column>img.hidden{
+    opacity: 0;
+}
+
+.column:hover img{
+    opacity: o;
+}
+
+.column:hover img.hidden{
+    opacity: 1;
 }
